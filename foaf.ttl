@@ -28,6 +28,6 @@
    foaf:interest dbr:Semantic_Web , dbr:Human-Computer_Interaction , dbr:Data_Science ;
    social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab> ;
    social:likesMovie dbr:Hellraiser , dbr:The_End_of_Evangelion ;
-   social:hasSpiritAnimal dbr:Fossa_(Cryptoprocta_ferox) ;
+   social:hasSpiritAnimal dbr:Lemur ;
    social:hasFavouritePlatonicSolid dbr:Octahedron ;
    foaf:myersBriggs "INFP" .

@@ -18,7 +18,7 @@
 
 <#fz> a foaf:Person ;
    rdfs:label "Franco Zautzik" ;
-   rdfs:comment "Student at DCC"@es , "Estudiante del DCC"@es ;
+   rdfs:comment "Student at DCC"@en , "Estudiante del DCC"@es ;
    foaf:name "Franco Zautzik" ;
    foaf:givenName "Franco" ;
    foaf:familyName "Zautzik" ;

@@ -1,0 +1,33 @@
+@base <https://github.com/francosiniscalchi/u/foaf.ttl> .
+
+@prefix fz: <https://github.com/francosiniscalchi/u/foaf.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix dbr: <http://dbpedia.org/resource/>.
+
+<> a foaf:Document ;
+   dc:date "2021-11-16"^^xsd:date ;
+   dc:title "Franco's FOAF Profile"@en ;
+   foaf:primaryTopic <#fz> ;
+   dc:creator <#fz> .
+
+<#fz> a foaf:Person ;
+   rdfs:label "Franco Zautzik" ;
+   rdfs:comment "Student at DCC"@es , "Estudiante del DCC"@es ;
+   foaf:name "Franco Zautzik" ;
+   foaf:givenName "Franco" ;
+   foaf:familyName "Zautzik" ;
+   foaf:age 24 ;
+   foaf:img <https://i1.sndcdn.com/avatars-000237006553-g30gd4-t500x500.jpg> ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#> , <http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab> , <https://users.dcc.uchile.cl/~paliaga/foaf.ttl#pa> , <https://users.dcc.uchile.cl/~dhernand/foaf.ttl#dh> ;
+   foaf:interest dbr:Semantic_Web , dbr:Human-Computer_Interaction , dbr:Data_Science ;
+   social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab> ;
+   social:likesMovie dbr:Hellraiser , dbr:The_End_of_Evangelion ;
+   social:hasSpiritAnimal dbr:Fossa_(Cryptoprocta_ferox) ;
+   social:hasFavouritePlatonicSolid dbr:Octahedron ;
+   foaf:myersBriggs "INFP" .

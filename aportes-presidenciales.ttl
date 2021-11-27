@@ -1,0 +1,52 @@
+@base <http://ex.org/> .
+@prefix ex: <http://ex.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:PresidentialCandidate rdfs:subClassOf ex:Candidate .
+
+ex:GabrielBoric rdf:type ex:PresidentialCandidate .
+
+ex:JorgeEliasBritoHasbun rdf:type ex:Contributor .
+
+_:cb1 ex:amount 3500000  ;
+ex:contributedBy ex:JorgeEliasBritoHasbun ;
+ex:contributionTo ex:GabrielBoric .
+
+ _:cb2 ex:amount 1500000  ;
+ex:contributedBy ex:HerminoSegundoSandovalBorquez ;
+ex:contributionTo ex:GabrielBoric .
+
+ _:cb3 ex:amount 1000000  ;
+ex:contributedBy ex:JosePascualMolesValenzuela ;
+ex:contributionTo ex:GabrielBoric .
+
+ _:cb4 ex:amount 1000000 ;
+ex:contributedBy ex:RicardoMoisesSilvaGarcia ;
+ex:contributionTo ex:GabrielBoric .
+
+ _:cb5 ex:amount 1000000 ;
+ex:contributedBy ex:MariaJoseFontecillaWaugh ;
+ex:contributionTo ex:GabrielBoric .
+
+ex:JoseAntonioKast rdf:type ex:PresidentialCandidate .
+
+ _:ck1 ex:amount 10000000  ;
+ex:contributedBy ex:CarlosCristianCoxVial ;
+ex:contributionTo ex:JoseAntonioKast .
+
+ _:ck2 ex:amount 7000000  ;
+ex:contributedBy ex:JavierIgnacioSaidHandal ;
+ex:contributionTo ex:JoseAntonioKast .
+
+ _:ck3 ex:amount 5000000  ;
+ex:contributedBy ex:MicaelaCartwrightVogt ;
+ex:contributionTo ex:JoseAntonioKast .
+
+ _:ck4 ex:amount 5000000 ;
+ex:contributedBy ex:AugustoJesusUndurragaBulnes ;
+ex:contributionTo ex:JoseAntonioKast .
+
+ _:ck5 ex:amount 4000000 ;
+ex:contributedBy ex:SergioDanielBarrosRuiztagle ;
+ex:contributionTo ex:JoseAntonioKast .

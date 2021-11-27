@@ -2,10 +2,11 @@
 @prefix ex: <http://ex.org/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 
 ex:PresidentialCandidate rdfs:subClassOf ex:Candidate .
 
-ex:GabrielBoric rdf:type ex:PresidentialCandidate .
+wd:Q16297876 rdf:type ex:PresidentialCandidate .
 
 ex:JorgeEliasBritoHasbun rdf:type ex:Contributor .
 
@@ -29,7 +30,7 @@ ex:contributionTo ex:GabrielBoric .
 ex:contributedBy ex:MariaJoseFontecillaWaugh ;
 ex:contributionTo ex:GabrielBoric .
 
-ex:JoseAntonioKast rdf:type ex:PresidentialCandidate .
+wd:Q5937916 rdf:type ex:PresidentialCandidate .
 
  _:ck1 ex:amount 10000000  ;
 ex:contributedBy ex:CarlosCristianCoxVial ;

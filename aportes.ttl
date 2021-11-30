@@ -2,6 +2,7 @@
 @prefix ex: <https://raw.githubusercontent.com/francosiniscalchi/u/main/aportes.ttl> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
@@ -9,48 +10,78 @@
 
 ex:PresidentialCandidate rdfs:subClassOf ex:Candidate .
 
-wd:Q16297876 rdf:type ex:PresidentialCandidate .
+ex:GabrielBoric rdf:type ex:PresidentialCandidate ; #Boric
+owl:sameAs wd:Q16297876 .
 
-ex:JorgeEliasBritoHasbun rdf:type ex:Contributor .
+ex:JorgeEliasBritoHasbun rdf:type ex:Contributor ;
+owl:sameAs wd:Q54853404 .
+
+ex:HerminioSegundoSandovalBorquez rdf:type ex:Contributor ;
+owl:sameAs wd:Q109836191 .
+
+ex:JosePascualMolesValenzuela rdf:type ex:Contributor ;
+owl:sameAs wd:Q109836280 .
+
+ex:RicardoMoisesSilvaGarcia rdf:type ex:Contributor ;
+owl:sameAs wd:Q109836257 .
+
+ex:MariaJoseFontecillaWaugh rdf:type ex:Contributor ;
+owl:sameAs wd:Q109836283  .
 
 _:cb1 ex:amount 3500000  ;
 ex:contributedBy ex:JorgeEliasBritoHasbun ;
-ex:contributionTo wd:Q16297876 .
+ex:contributionTo ex:GabrielBoric .
 
  _:cb2 ex:amount 1500000  ;
-ex:contributedBy ex:HerminoSegundoSandovalBorquez ;
-ex:contributionTo wd:Q16297876 .
+ex:contributedBy ex:HerminioSegundoSandovalBorquez ;
+ex:contributionTo ex:GabrielBoric .
 
  _:cb3 ex:amount 1000000  ;
 ex:contributedBy ex:JosePascualMolesValenzuela ;
-ex:contributionTo wd:Q16297876 .
+ex:contributionTo ex:GabrielBoric .
 
  _:cb4 ex:amount 1000000 ;
 ex:contributedBy ex:RicardoMoisesSilvaGarcia ;
-ex:contributionTo wd:Q16297876 .
+ex:contributionTo ex:GabrielBoric .
 
  _:cb5 ex:amount 1000000 ;
 ex:contributedBy ex:MariaJoseFontecillaWaugh ;
-ex:contributionTo wd:Q16297876 .
+ex:contributionTo ex:GabrielBoric .
 
-wd:Q5937916 rdf:type ex:PresidentialCandidate .
+ex:JoseAntonioKast rdf:type ex:PresidentialCandidate ; #Kast
+owl:sameAs wd:Q5937916 .
+
+ex:CarlosCristianCoxVial rdf:type ex:Contributor ;
+owl:sameAs wd:1 .
+
+ex:JavierIgnacioSaidHandal rdf:type ex:Contributor ;
+owl:sameAs wd:1 .
+
+ex:MicaelaCartwrightVogt rdf:type ex:Contributor ;
+owl:sameAs wd1: .
+
+ex:AugustoJesusUndurragaBulnes rdf:type ex:Contributor ;
+owl:sameAs wd:1 .
+
+ex:SergioDanielBarrosRuiztagle rdf:type ex:Contributor ;
+owl:sameAs wd:1 .
 
  _:ck1 ex:amount 10000000  ;
 ex:contributedBy ex:CarlosCristianCoxVial ;
-ex:contributionTo wd:Q5937916 .
+ex:contributionTo ex:JoseAntonioKast .
 
  _:ck2 ex:amount 7000000  ;
 ex:contributedBy ex:JavierIgnacioSaidHandal ;
-ex:contributionTo wd:Q5937916 .
+ex:contributionTo ex:JoseAntonioKast .
 
  _:ck3 ex:amount 5000000  ;
 ex:contributedBy ex:MicaelaCartwrightVogt ;
-ex:contributionTo wd:Q5937916 .
+ex:contributionTo ex:JoseAntonioKast .
 
  _:ck4 ex:amount 5000000 ;
 ex:contributedBy ex:AugustoJesusUndurragaBulnes ;
-ex:contributionTo wd:Q5937916 .
+ex:contributionTo ex:JoseAntonioKast .
 
  _:ck5 ex:amount 4000000 ;
 ex:contributedBy ex:SergioDanielBarrosRuiztagle ;
-ex:contributionTo wd:Q5937916 .
+ex:contributionTo ex:JoseAntonioKast .

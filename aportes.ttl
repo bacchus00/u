@@ -58,7 +58,7 @@ ex:JavierIgnacioSaidHandal rdf:type ex:Contributor ;
 owl:sameAs wd:1 .
 
 ex:MicaelaCartwrightVogt rdf:type ex:Contributor ;
-owl:sameAs wd1: .
+owl:sameAs wd:1 .
 
 ex:AugustoJesusUndurragaBulnes rdf:type ex:Contributor ;
 owl:sameAs wd:1 .

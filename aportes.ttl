@@ -52,19 +52,19 @@ ex:JoseAntonioKast rdf:type ex:PresidentialCandidate ; #Kast
 owl:sameAs wd:Q5937916 .
 
 ex:CarlosCristianCoxVial rdf:type ex:Contributor ;
-owl:sameAs wd:1 .
+owl:sameAs wd:Q109838260.
 
 ex:JavierIgnacioSaidHandal rdf:type ex:Contributor ;
-owl:sameAs wd:1 .
+owl:sameAs wd:Q109838314 .
 
 ex:MicaelaCartwrightVogt rdf:type ex:Contributor ;
-owl:sameAs wd:1 .
+owl:sameAs wd:Q109838531 .
 
 ex:AugustoJesusUndurragaBulnes rdf:type ex:Contributor ;
-owl:sameAs wd:1 .
+owl:sameAs wd:Q109838653.
 
 ex:SergioDanielBarrosRuiztagle rdf:type ex:Contributor ;
-owl:sameAs wd:1 .
+owl:sameAs wd:Q109838979 .
 
  _:ck1 ex:amount 10000000  ;
 ex:contributedBy ex:CarlosCristianCoxVial ;

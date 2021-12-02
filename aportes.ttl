@@ -1,109 +1,109 @@
 @base <http://raw.githubusercontent.com/francosiniscalchi/u/main/aportes.ttl> .
-@prefix ex: <https://raw.githubusercontent.com/francosiniscalchi/u/main/aportes.ttl#> .
+@prefix con: <https://raw.githubusercontent.com/francosiniscalchi/u/main/aportes.ttl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-<> a foaf:Document .
+<> a con:Document .
 
-ex:PresidentialCandidate rdfs:subClassOf ex:Candidate .
+con:PresidentialCandidate rdfs:subClassOf con:Candidate .
 
-ex:GabrielBoric rdf:type ex:PresidentialCandidate ; #Boric
-ex:memberOfPoliticalParty ex:ConvergenciaSocial ;
+con:GabrielBoric rdf:type con:PresidentialCandidate ; #Boric
+con:memberOfPoliticalParty con:ConvergenciaSocial ;
 owl:sameAs wd:Q16297876 .
 
-ex:JorgeEliasBritoHasbun rdf:type ex:Contributor ;
+con:JorgeEliasBritoHasbun rdf:type con:Contributor ;
 owl:sameAs wd:Q54853404 .
 
-ex:HerminioSegundoSandovalBorquez rdf:type ex:Contributor ;
+con:HerminioSegundoSandovalBorquez rdf:type con:Contributor ;
 owl:sameAs wd:Q109836191 .
 
-ex:JosePascualMolesValenzuela rdf:type ex:Contributor ;
+con:JosePascualMolesValenzuela rdf:type con:Contributor ;
 owl:sameAs wd:Q109836280 .
 
-ex:RicardoMoisesSilvaGarcia rdf:type ex:Contributor ;
+con:RicardoMoisesSilvaGarcia rdf:type con:Contributor ;
 owl:sameAs wd:Q109836257 .
 
-ex:MariaJoseFontecillaWaugh rdf:type ex:Contributor ;
+con:MariaJoseFontecillaWaugh rdf:type con:Contributor ;
 owl:sameAs wd:Q109836283  .
 
-_:cb1 ex:amount 3500000  ;
-ex:contributedBy ex:JorgeEliasBritoHasbun ;
-ex:contributionTo ex:GabrielBoric .
+_:cb1 con:amount 3500000  ;
+con:contributedBy con:JorgeEliasBritoHasbun ;
+con:contributionTo con:GabrielBoric .
 
- _:cb2 ex:amount 1500000  ;
-ex:contributedBy ex:HerminioSegundoSandovalBorquez ;
-ex:contributionTo ex:GabrielBoric .
+ _:cb2 con:amount 1500000  ;
+con:contributedBy con:HerminioSegundoSandovalBorquez ;
+con:contributionTo con:GabrielBoric .
 
- _:cb3 ex:amount 1000000  ;
-ex:contributedBy ex:JosePascualMolesValenzuela ;
-ex:contributionTo ex:GabrielBoric .
+ _:cb3 con:amount 1000000  ;
+con:contributedBy con:JosePascualMolesValenzuela ;
+con:contributionTo con:GabrielBoric .
 
- _:cb4 ex:amount 1000000 ;
-ex:contributedBy ex:RicardoMoisesSilvaGarcia ;
-ex:contributionTo ex:GabrielBoric .
+ _:cb4 con:amount 1000000 ;
+con:contributedBy con:RicardoMoisesSilvaGarcia ;
+con:contributionTo con:GabrielBoric .
 
- _:cb5 ex:amount 1000000 ;
-ex:contributedBy ex:MariaJoseFontecillaWaugh ;
-ex:contributionTo ex:GabrielBoric .
+ _:cb5 con:amount 1000000 ;
+con:contributedBy con:MariaJoseFontecillaWaugh ;
+con:contributionTo con:GabrielBoric .
 
-ex:ConvergenciaSocial rdf:type ex:Party ;
+con:ConvergenciaSocial rdf:type con:PoliticalParty ;
 owl:sameAs wd:Q63565503 .
 
-ex:JoseAntonioKast rdf:type ex:PresidentialCandidate ; #Kast
-ex:memberOfPoliticalParty ex:PartidoRepublicanoDeChile ;
+con:JoseAntonioKast rdf:type con:PresidentialCandidate ; #Kast
+con:memberOfPoliticalParty con:PartidoRepublicanoDeChile ;
 owl:sameAs wd:Q5937916 .
 
-ex:CarlosCristianCoxVial rdf:type ex:Contributor ;
+con:CarlosCristianCoxVial rdf:type con:Contributor ;
 owl:sameAs wd:Q109838260.
 
-ex:JavierIgnacioSaidHandal rdf:type ex:Contributor ;
+con:JavierIgnacioSaidHandal rdf:type con:Contributor ;
 owl:sameAs wd:Q109838314 .
 
-ex:MicaelaCartwrightVogt rdf:type ex:Contributor ;
+con:MicaelaCartwrightVogt rdf:type con:Contributor ;
 owl:sameAs wd:Q109838531 .
 
-ex:AugustoJesusUndurragaBulnes rdf:type ex:Contributor ;
+con:AugustoJesusUndurragaBulnes rdf:type con:Contributor ;
 owl:sameAs wd:Q109838653.
 
-ex:SergioDanielBarrosRuiztagle rdf:type ex:Contributor ;
+con:SergioDanielBarrosRuiztagle rdf:type con:Contributor ;
 owl:sameAs wd:Q109838979 .
 
- _:ck1 ex:amount 10000000  ;
-ex:contributedBy ex:CarlosCristianCoxVial ;
-ex:contributionTo ex:JoseAntonioKast .
+ _:ck1 con:amount 10000000  ;
+con:contributedBy con:CarlosCristianCoxVial ;
+con:contributionTo con:JoseAntonioKast .
 
- _:ck2 ex:amount 7000000  ;
-ex:contributedBy ex:JavierIgnacioSaidHandal ;
-ex:contributionTo ex:JoseAntonioKast .
+ _:ck2 con:amount 7000000  ;
+con:contributedBy con:JavierIgnacioSaidHandal ;
+con:contributionTo con:JoseAntonioKast .
 
- _:ck3 ex:amount 5000000  ;
-ex:contributedBy ex:MicaelaCartwrightVogt ;
-ex:contributionTo ex:JoseAntonioKast .
+ _:ck3 con:amount 5000000  ;
+con:contributedBy con:MicaelaCartwrightVogt ;
+con:contributionTo con:JoseAntonioKast .
 
- _:ck4 ex:amount 5000000 ;
-ex:contributedBy ex:AugustoJesusUndurragaBulnes ;
-ex:contributionTo ex:JoseAntonioKast .
+ _:ck4 con:amount 5000000 ;
+con:contributedBy con:AugustoJesusUndurragaBulnes ;
+con:contributionTo con:JoseAntonioKast .
 
- _:ck5 ex:amount 4000000 ;
-ex:contributedBy ex:SergioDanielBarrosRuiztagle ;
-ex:contributionTo ex:JoseAntonioKast .
+ _:ck5 con:amount 4000000 ;
+con:contributedBy con:SergioDanielBarrosRuiztagle ;
+con:contributionTo con:JoseAntonioKast .
 
-ex:PartidoRepublicanoDeChile rdf:type ex:Party ;
+con:PartidoRepublicanoDeChile rdf:type con:PoliticalParty ;
 owl:sameAs wd:Q64539214 .
 
-ex:RicardoEnriqueAyalaMarfil rdf:type ex:Contributor ;
+con:RicardoEnriqueAyalaMarfil rdf:type con:Contributor ;
 owl:sameAs wd:Q109868290 .
 
-ex:WolfHansAlbertVonAppenBehrmann rdf:type ex:Contributor ;
+con:WolfHansAlbertVonAppenBehrmann rdf:type con:Contributor ;
 owl:sameAs wd:Q109868007 .
 
- _:cpr1 ex:amount 15000000 ;
-ex:contributedBy ex:RicardoEnriqueAyalaMarfil ;
-ex:contributionTo ex:PartidoRepublicanoDeChile .
+ _:cpr1 con:amount 15000000 ;
+con:contributedBy con:RicardoEnriqueAyalaMarfil ;
+con:contributionTo con:PartidoRepublicanoDeChile .
 
- _:cpr2 ex:amount 15000000 ;
-ex:contributedBy ex:WolfHansAlbertVonAppenBehrmann ;
-ex:contributionTo ex:PartidoRepublicanoDeChile .
+ _:cpr2 con:amount 15000000 ;
+con:contributedBy con:WolfHansAlbertVonAppenBehrmann ;
+con:contributionTo con:PartidoRepublicanoDeChile .

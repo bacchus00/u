@@ -11,6 +11,7 @@
 ex:PresidentialCandidate rdfs:subClassOf ex:Candidate .
 
 ex:GabrielBoric rdf:type ex:PresidentialCandidate ; #Boric
+ex:memberOfPoliticalParty ex:ConvergenciaSocial ;
 owl:sameAs wd:Q16297876 .
 
 ex:JorgeEliasBritoHasbun rdf:type ex:Contributor ;
@@ -48,7 +49,11 @@ ex:contributionTo ex:GabrielBoric .
 ex:contributedBy ex:MariaJoseFontecillaWaugh ;
 ex:contributionTo ex:GabrielBoric .
 
+ex:ConvergenciaSocial rdf:type ex:Party ;
+owl:sameAs wd:Q63565503 .
+
 ex:JoseAntonioKast rdf:type ex:PresidentialCandidate ; #Kast
+ex:memberOfPoliticalParty ex:PartidoRepublicanoDeChile ;
 owl:sameAs wd:Q5937916 .
 
 ex:CarlosCristianCoxVial rdf:type ex:Contributor ;
@@ -85,3 +90,20 @@ ex:contributionTo ex:JoseAntonioKast .
  _:ck5 ex:amount 4000000 ;
 ex:contributedBy ex:SergioDanielBarrosRuiztagle ;
 ex:contributionTo ex:JoseAntonioKast .
+
+ex:PartidoRepublicanoDeChile rdf:type ex:Party ;
+owl:sameAs wd:Q64539214 .
+
+ex:RicardoEnriqueAyalaMarfil rdf:type ex:Contributor ;
+owl:sameAs wd:Q109868290 .
+
+ex:WolfHansAlbertVonAppenBehrmann rdf:type ex:Contributor ;
+owl:sameAs wd:Q109868007 .
+
+ _:cpr1 ex:amount 15000000 ;
+ex:contributedBy ex:RicardoEnriqueAyalaMarfil ;
+ex:contributionTo ex:PartidoRepublicanoDeChile .
+
+ _:cpr2 ex:amount 15000000 ;
+ex:contributedBy ex:WolfHansAlbertVonAppenBehrmann ;
+ex:contributionTo ex:PartidoRepublicanoDeChile .

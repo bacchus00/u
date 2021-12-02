@@ -29,23 +29,28 @@ owl:sameAs wd:Q109836257 .
 con:MariaJoseFontecillaWaugh rdf:type con:Contributor ;
 owl:sameAs wd:Q109836283  .
 
-_:cb1 con:amount 3500000  ;
+con:cb1 rdf:type con:Contribution ;
+con:amount 3500000  ;
 con:contributedBy con:JorgeEliasBritoHasbun ;
 con:contributionTo con:GabrielBoric .
 
- _:cb2 con:amount 1500000  ;
+con:cb2 rdf:type con:Contribution ;
+con:amount 1500000  ;
 con:contributedBy con:HerminioSegundoSandovalBorquez ;
 con:contributionTo con:GabrielBoric .
 
- _:cb3 con:amount 1000000  ;
+con:cb3 rdf:type con:Contribution ;
+con:amount 1000000  ;
 con:contributedBy con:JosePascualMolesValenzuela ;
 con:contributionTo con:GabrielBoric .
 
- _:cb4 con:amount 1000000 ;
+con:cb4 rdf:type con:Contribution ;
+con:amount 1000000 ;
 con:contributedBy con:RicardoMoisesSilvaGarcia ;
 con:contributionTo con:GabrielBoric .
 
- _:cb5 con:amount 1000000 ;
+con:cb5 rdf:type con:Contribution ;
+con:amount 1000000 ;
 con:contributedBy con:MariaJoseFontecillaWaugh ;
 con:contributionTo con:GabrielBoric .
 
@@ -71,23 +76,27 @@ owl:sameAs wd:Q109838653.
 con:SergioDanielBarrosRuiztagle rdf:type con:Contributor ;
 owl:sameAs wd:Q109838979 .
 
- _:ck1 con:amount 10000000  ;
+con:ck1 rdf:type con:Contribution ;
+con:amount 10000000  ;
 con:contributedBy con:CarlosCristianCoxVial ;
 con:contributionTo con:JoseAntonioKast .
 
- _:ck2 con:amount 7000000  ;
+con:ck2 rdf:type con:Contribution ;
+con:amount 7000000  ;
 con:contributedBy con:JavierIgnacioSaidHandal ;
 con:contributionTo con:JoseAntonioKast .
 
- _:ck3 con:amount 5000000  ;
+con:ck3 rdf:type con:Contribution ;
+con:amount 5000000  ;
 con:contributedBy con:MicaelaCartwrightVogt ;
 con:contributionTo con:JoseAntonioKast .
 
- _:ck4 con:amount 5000000 ;
+con:ck4 rdf:type con:Contribution ;
+con:amount 5000000 ;
 con:contributedBy con:AugustoJesusUndurragaBulnes ;
 con:contributionTo con:JoseAntonioKast .
 
- _:ck5 con:amount 4000000 ;
+con:ck5 con:amount 4000000 ;
 con:contributedBy con:SergioDanielBarrosRuiztagle ;
 con:contributionTo con:JoseAntonioKast .
 
@@ -100,10 +109,12 @@ owl:sameAs wd:Q109868290 .
 con:WolfHansAlbertVonAppenBehrmann rdf:type con:Contributor ;
 owl:sameAs wd:Q109868007 .
 
- _:cpr1 con:amount 15000000 ;
+con:cpr1 rdf:type con:Contribution ;
+con:amount 15000000 ;
 con:contributedBy con:RicardoEnriqueAyalaMarfil ;
 con:contributionTo con:PartidoRepublicanoDeChile .
 
- _:cpr2 con:amount 15000000 ;
+con:cpr2 rdf:type con:Contribution ;
+con:amount 15000000 ;
 con:contributedBy con:WolfHansAlbertVonAppenBehrmann ;
 con:contributionTo con:PartidoRepublicanoDeChile .

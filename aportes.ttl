@@ -119,9 +119,3 @@ con:cpr2 rdf:type con:Contribution ;
 con:amount 15000000 ;
 con:contributedBy con:WolfHansAlbertVonAppenBehrmann ;
 con:contributionTo con:PartidoRepublicanoDeChile .
-
-#owl entailment
-con:presidentialCandidateOf owl:inverseOf con:hasPresidentialCandidate .
-con:MemberOfPoliticalParty owl:inverseOf con:hasMember .
-con:contributionTo owl:propertyChainAxiom (con:contributionTo con:hasPresidentialCandidate) .
-con:PresidentialCandidate owl:hasKey con:MemberOfPoliticalParty .

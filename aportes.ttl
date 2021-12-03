@@ -97,7 +97,8 @@ con:amount 5000000 ;
 con:contributedBy con:AugustoJesusUndurragaBulnes ;
 con:contributionTo con:JoseAntonioKast .
 
-con:ck5 con:amount 4000000 ;
+con:ck5 rdf:type con:Contribution ;
+con:amount 4000000 ;
 con:contributedBy con:SergioDanielBarrosRuiztagle ;
 con:contributionTo con:JoseAntonioKast .
 
